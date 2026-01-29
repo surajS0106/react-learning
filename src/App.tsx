@@ -1,6 +1,6 @@
 import './App.css'
-import Name from './Name.tsx'
-import Button from './Button.tsx'
+import { Name } from './Name.tsx'
+import { Button } from './Button.tsx'
 
 function App() {
   return (
