@@ -1,18 +1,13 @@
 import './App.css'
-
-function Name() {
-  return <h2>Hi, This is Suraj Sanjay</h2>
-}
-
-
+import Name from './Name.tsx'
+import Button from './Button.tsx'
 
 function App() {
-
-
   return (
     <>
       <h1>React Tutorial</h1>
       <Name />
+      <Button />
     </>
   )
 }
