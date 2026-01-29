@@ -1,6 +1,6 @@
-import './App.css'
-import { Name } from './Name.tsx'
-import { Button } from './Button.tsx'
+import "./App.css";
+import { Name } from "./Name.tsx";
+import { Button } from "./Button.tsx";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Name />
       <Button />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
