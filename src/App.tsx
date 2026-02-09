@@ -2,6 +2,7 @@ import "./App.css";
 import { Name } from "./Name.tsx";
 import { Button } from "./Button.tsx";
 import {Hello, HelloWithoutJSX} from "./hello.tsx"
+import { UserProfile, UserProfileWithoutJSX, UserProfileWithReactFragment } from "./UserProfile.tsx";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Button />
       <Hello />
       <HelloWithoutJSX />
+      <UserProfile />
+      <UserProfileWithReactFragment />
+      <UserProfileWithoutJSX />
     </>
   );
 }
