@@ -1,8 +1,8 @@
-export const Product = (props: { name: string, price: number, description: string }) => {
+export const Product = ( {name, price, description}: {name: string, price: number, description: string} ) => {
     const product = {
-        name: props.name,
-        price: props.price,
-        description: props.description
+        name: name,
+        price: price,
+        description: description
     }
     return (
         <div>
