@@ -6,3 +6,5 @@ export const CardWrapper = ({title, children}: {title: string, children: React.R
         </div>
     )
 }
+
+//change the border color to red and add a background color of lightgrayexport const CardWrapper = ({title, children}: {title: string, children: React.ReactNode}) => {
