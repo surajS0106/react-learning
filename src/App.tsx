@@ -3,7 +3,8 @@ import { Name } from "./Name.tsx";
 import { Button } from "./Button.tsx";
 import {Hello, HelloWithoutJSX} from "./hello.tsx"
 import { UserProfile, UserProfileWithoutJSX, UserProfileWithReactFragment } from "./UserProfile.tsx";
-
+import { StyledForm } from "./StyledForm.tsx";
+import { CandidateProfile } from "./CandidateProfile.tsx";
 function App() {
   return (
     <>
@@ -15,6 +16,8 @@ function App() {
       <UserProfile />
       <UserProfileWithReactFragment />
       <UserProfileWithoutJSX />
+      <StyledForm />
+      <CandidateProfile />
     </>
   );
 }
