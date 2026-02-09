@@ -6,10 +6,13 @@ import { UserProfile, UserProfileWithoutJSX, UserProfileWithReactFragment } from
 import { StyledForm } from "./StyledForm.tsx";
 import { CandidateProfile } from "./CandidateProfile.tsx";
 import { Product } from "./Product.tsx";
+import { Greeting } from "./Greetings.tsx";
 function App() {
   return (
     <>
       <h1>React Tutorial</h1>
+      <Greeting />
+      <Greeting name="Alice" message="Hello" />
       <Name name="Suraj Sanjay" alias="Suraj" lastName="Sanjay"/>
       <Name name="Dexter" alias="Murderer" lastName="Morgan" />
       <Name name="Anbe Diana" alias="loosu" lastName="Diana" />
