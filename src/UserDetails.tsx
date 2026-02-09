@@ -1,0 +1,12 @@
+import type { UserProps } from "./types/UserProps";
+
+export const UserDetails = ({name, email, age}: UserProps) => {
+  return (
+    <div>
+      <h2>User Details</h2>
+      <p>Name: {name}</p>
+      <p>Email: {email}</p>
+      <p>Age: {age}</p>
+    </div>
+  );
+}
