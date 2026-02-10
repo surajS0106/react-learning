@@ -7,4 +7,5 @@ export interface UserProps {
   hideOffline?: boolean
   isPremium?: boolean
   isNewUser?: boolean
+  role: "admin" | "vip" 
 }
