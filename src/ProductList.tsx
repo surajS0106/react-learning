@@ -8,8 +8,8 @@ export const ProductList = () => {
     const expensiveProducts = 
                 products.filter(products => products.price > 300).map((products) => {
                     return (
-                    <div>                        
-                        <div>{products.id}</div>
+                    <div key={products.id}>                       
+                        
                         <h3>{products.name}</h3>
                         <p>{products.description}</p>
                         <p>Price: ${products.price}</p>
