@@ -10,6 +10,7 @@ import { Greeting } from "./Greetings.tsx";
 import { CardWrapper } from "./CardWrapper.tsx";
 import { UserDetails } from "./UserDetails.tsx";
 import { ProductList } from "./ProductList.tsx";
+import { NameList } from "./NameList.tsx";
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
       <UserDetails name="Suraj Sanjay" email="surajsanjay1999@gmail.com" age={26} isOnline={true} hideOffline={false} isPremium={true} isNewUser={true} role="admin" />
       <UserDetails name="Dexter Morgan" email="dexter.morgan@example.com" age={35} isOnline={false} hideOffline={false} isPremium={false} isNewUser={false} role="vip" />
       <ProductList />
+      <NameList />
     </>
   );
 }
