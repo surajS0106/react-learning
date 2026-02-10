@@ -5,10 +5,7 @@ export const ProductList = () => {
         { id: 3, name: "Headphones", price: 200, description: "Noise-cancelling headphones for immersive sound experience" },
     ];
 
-    return (
-        <div>
-            <h2>Product List</h2>
-            {
+    const expensiveProducts = 
                 products.filter(products => products.price > 300).map((products) => {
                     return (
                     <div>                        
@@ -18,7 +15,12 @@ export const ProductList = () => {
                         <p>Price: ${products.price}</p>
                     </div>)                    
                 })
-            }
+            
+
+    return (
+        <div>
+            <h2>Product List</h2>
+            {expensiveProducts}
         </div>
     )
 }
