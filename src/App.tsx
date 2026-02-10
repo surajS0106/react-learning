@@ -31,7 +31,7 @@ function App() {
       <UserProfileWithoutJSX />
       <StyledForm />
       <CandidateProfile />
-      <UserDetails name="Suraj Sanjay" email="surajsanjay1999@gmail.com" age={26} isOnline={true} hideOffline={false} />
+      <UserDetails name="Suraj Sanjay" email="surajsanjay1999@gmail.com" age={26} isOnline={true} hideOffline={false} isPremium={true} isNewUser={true} />
     </>
   );
 }

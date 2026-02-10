@@ -5,4 +5,6 @@ export interface UserProps {
   age: number
   isOnline: boolean
   hideOffline?: boolean
+  isPremium?: boolean
+  isNewUser?: boolean
 }
