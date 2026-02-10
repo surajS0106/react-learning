@@ -5,24 +5,14 @@ export const UserDetails = ({name, email, age, isOnline, hideOffline}: UserProps
     return null
   }
 
-  if (isOnline) {
-    return (
-      <div>
-        <h2>User Details</h2>
-        <p>Name: {name}</p>
-        <p>Email: {email}</p>
-        <p>Age: {age}</p>
-        <p>Status: Online</p>
-      </div>
-    );
-  }
   return (
     <div>
-      <h2>User Details</h2>
-      <p>Name: {name}</p>
+      <h3>{name}</h3>
       <p>Email: {email}</p>
       <p>Age: {age}</p>
-      <p>Status: Offline</p>
+      <span>{isOnline ? "Online" :"Offline"}</span>
+      <p>{isOnline ? "Available to Chat" : "Not Available to Chat"}</p>
+      {isOnline? (<button>Chat</button>) : (<small>Chat Unavailable</small>)}
     </div>
-  );
+  )
 }
