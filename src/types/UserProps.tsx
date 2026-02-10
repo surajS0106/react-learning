@@ -4,4 +4,5 @@ export interface UserProps {
   email: string
   age: number
   isOnline: boolean
+  hideOffline?: boolean
 }

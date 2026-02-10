@@ -1,6 +1,10 @@
 import type { UserProps } from "./types/UserProps";
 
-export const UserDetails = ({name, email, age, isOnline}: UserProps) => {
+export const UserDetails = ({name, email, age, isOnline, hideOffline}: UserProps) => {
+  if(hideOffline && !isOnline){
+    return null
+  }
+
   if (isOnline) {
     return (
       <div>
