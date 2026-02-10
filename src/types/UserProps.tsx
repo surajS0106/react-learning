@@ -3,4 +3,5 @@ export interface UserProps {
   name: string
   email: string
   age: number
+  isOnline: boolean
 }

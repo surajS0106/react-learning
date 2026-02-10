@@ -8,6 +8,7 @@ import { CandidateProfile } from "./CandidateProfile.tsx";
 import { Product } from "./Product.tsx";
 import { Greeting } from "./Greetings.tsx";
 import { CardWrapper } from "./CardWrapper.tsx";
+import { UserDetails } from "./UserDetails.tsx";
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
       <UserProfileWithoutJSX />
       <StyledForm />
       <CandidateProfile />
+      <UserDetails name="Suraj Sanjay" email="surajsanjay1999@gmail.com" age={24} isOnline={true} />
     </>
   );
 }
